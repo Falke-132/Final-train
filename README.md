@@ -17,27 +17,22 @@
 | Метрика     | Оригинальная статья (2020) | Модель проекта (LightGBM) |
 | :---------: | :-------------------------:| :-----------------------: |
 |Accuracy|0.9683|0.9707|
-|Macro F1-score|0.9680|0.9707|
+|Macro F1-score|0.9660|0.9707|
 |ROC-AUC|-|0.9948|
-
-Метрика |		| 
-Accuracy |	0.9683 |	0.9707
-Macro F1-score |	0.9660 |	0.9707
-ROC-AUC	| -| 	0.9948
 
 ### Структура проекта
 ```text
 phishing-training/
 │
-├── data/                         # Папка для данных
+├── data/                          # Папка для данных
 │   └── dataset_phishing.csv       # Исходный сырой датасет
 │
-├── notebooks/                    # Jupyter тетради
-│   └── 01_eda_and_model.ipynb    # EDA, поиск гиперпараметров
+├── notebooks/                     # Jupyter тетради
+│   └── 01_eda_and_model.ipynb     # EDA, поиск гиперпараметров
 │
-├── prepare_data.py               # Скрипт очистки данных и выделения демо
-├── train.py                      # Скрипт обучения модели
-├── requirements.txt              # Зависимости
+├── prepare_data.py                # Скрипт очистки данных и выделения демо
+├── train.py                       # Скрипт обучения модели
+├── requirements.txt               # Зависимости
 └── README.md
 ```
 
